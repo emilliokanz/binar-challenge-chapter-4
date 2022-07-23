@@ -19,6 +19,9 @@ h2 {
 a :hover {
   color: #BD0000 !important;
 }
+a {
+  text-decoration: none !important;
+}
 button {
   background-color: transparent;
   border: none;
@@ -113,12 +116,13 @@ button {
   height: 71px;
 }
 .win-status {
-  position: relative;
+  position: absolute;
+  top: 22rem ;
   padding: 25px 30px;
   text-align: center;
   font-weight: bold;
   border-radius: 10%;
-  transform: rotate(-45deg);
+  transform: rotate(-31deg);
   font-size: 38px !important;
   width: 271px;
   height: 167px;
@@ -126,13 +130,14 @@ button {
   background-color: #4C9654;
 }
 .lose-status {
-  position: relative;
+  position: absolute;
+  top: 22rem  ;
   padding: 25px 60px;
   text-align: center;
   text-align: center;
   font-weight: bold;
   border-radius: 10%;
-  transform: rotate(-45deg);
+  transform: rotate(-31deg);
   font-size: 38px !important;
   width: 271px;
   height: 167px;
@@ -140,13 +145,14 @@ button {
   background-color: #4C9654;
 }
 .draw-status {
-  position: relative;
+  position: absolute;
+  top: 22rem  ;
   padding: 50px 30px;
   text-align: center;
   text-align: center;
   font-weight: bold;
   border-radius: 10%;
-  transform: rotate(-45deg);
+  transform: rotate(-31deg);
   font-size: 38px !important;
   width: 271px;
   height: 167px;

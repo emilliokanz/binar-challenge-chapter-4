@@ -34,11 +34,11 @@ const startGame = () => {
 
       // Set com option style
       document.querySelector(comChoice).style.borderRadius = '10%';
-      document.querySelector(comChoice).style.backgroundColor = 'grey';
+      document.querySelector(comChoice).style.backgroundColor = '#C4C4C4';
 
       // Set player option style
       document.querySelector("." + option.className).style.borderRadius = '10%';
-      document.querySelector("." + option.className).style.backgroundColor = 'grey';  
+      document.querySelector("." + option.className).style.backgroundColor = '#C4C4C4';  
       
       // Logic for Rock Paper Scissors game
       const playerIndex = index;
