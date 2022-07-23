@@ -44,22 +44,26 @@ const startGame = () => {
       const playerIndex = index;
 
       if (playerIndex == comIndex) {
-        statusText.innerText = 'draw';
+        statusText.innerText = 'DRAW';
+        statusText.style.color = 'white'
         statusElement.className = 'draw-status'
         return console.log(playerIndex-comIndex, 'draw')
       }
       if ((playerIndex-comIndex) == -2) {
-        statusText.innerText = 'player win';
+        statusText.innerText = 'PLAYER WIN';
+        statusText.style.color = 'white'
         statusElement.className = 'win-status'
         return console.log(playerIndex-comIndex, 'player win')
       }
       if ((playerIndex-comIndex) == 1) {
-        statusText.innerText = 'player win';
+        statusText.innerText = 'PLAYER WIN';
+        statusText.style.color = 'white'
         statusElement.className = 'win-status'
         return console.log(playerIndex-comIndex, 'player win')
       }
       else {
-        statusText.innerText = 'player lose';
+        statusText.innerText = 'COM WIN';
+        statusText.style.color = 'white'
         statusElement.className = 'lose-status'
         return console.log(playerIndex-comIndex, 'player lose')
       }
@@ -74,6 +78,7 @@ const reloadGame = () => {
     btnEnable()
     statusElement.className = 'game-status'
     statusText.innerText = 'VS'
+    statusText.style.color = '#BD0000'
     list.forEach((item) => {
       item.style.backgroundColor = null;
       item.style.border = null;
