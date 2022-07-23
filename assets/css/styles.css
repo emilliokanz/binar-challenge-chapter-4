@@ -1,0 +1,98 @@
+/* make each component id that has interactives */
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  margin: 0.5em;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.header {
+  margin: 0.5em 0.2em ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+.arrow-back {
+  padding-bottom: 5px;
+  font-size: 30px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.clicked {
+  border: 2px solid black;
+}
+.button-image {
+  padding: 20px;
+  width: 90px;
+  height: 90px;
+}
+.select-container {
+  width: 200px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.game-status {
+  font-size: 50px;
+  height: 100px;
+  color: red;
+}
+.refresh {
+  width: 50px;
+  height: 50px;
+}
+.status-text{
+  color: red;
+}
+.win-status {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10%;
+  transform: rotate(-45deg);
+  font-size: 25px;
+  width: 150px;
+  height: 100px;
+  background-color: green;
+}
+.lose-status {
+  position: relative;
+  text-align: center;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10%;
+  transform: rotate(-45deg);
+  font-size: 25px;
+  width: 150px;
+  height: 100px;
+  background-color: rgb(255, 174, 0);
+}
+.draw-status {
+  position: relative;
+  text-align: center;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10%;
+  transform: rotate(-45deg);
+  font-size: 25px;
+  width: 150px;
+  height: 100px;
+  background-color: rgb(0, 162, 255);
+}
+

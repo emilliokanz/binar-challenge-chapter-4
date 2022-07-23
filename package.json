@@ -1,0 +1,20 @@
+{
+  "name": "binar-challenge-4",
+  "version": "1.0.0",
+  "description": "binar challenge 4th modul. Suit Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "serve",
+    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "node-sass": "^7.0.1"
+  }
+}
